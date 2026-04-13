@@ -9,7 +9,7 @@ export default function DealsListScreen() {
 
   useEffect(() => {
     // We will update YOUR_USERNAME once your GitHub repo is live!
-    const GITHUB_URL = 'https://raw.githubusercontent.com/YOUR_USERNAME/tech-deals-app/main/deals.json';
+    const GITHUB_URL = 'https://raw.githubusercontent.com/ramtinmehrani/tech-deals-app/main/deals.json';
     
     fetch(GITHUB_URL)
       .then((response) => response.json())

@@ -1,17 +1,45 @@
-import React from 'react';
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Linking, Alert } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Linking, Alert, ActivityIndicator } from 'react-native';
 import { useLocalSearchParams, Stack } from 'expo-router';
-import { deals } from '../../src/data/deals';
-import { percentOff } from '../../src/types/deal';
+import { Deal, percentOff } from '../../src/types/deal';
 
 export default function DealDetailScreen() {
   const { id } = useLocalSearchParams();
   const dealId = String(id);
-  const deal = deals.find((d) => d.id === dealId);
+  
+  const [deal, setDeal] = useState<Deal | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Fetching from your live GitHub repo
+    const GITHUB_URL = 'https://raw.githubusercontent.com/ramtinmehrani/tech-deals-app/main/deals.json';
+    
+    fetch(GITHUB_URL)
+      .then((response) => response.json())
+      .then((data: Deal[]) => {
+        const foundDeal = data.find((d) => d.id === dealId);
+        setDeal(foundDeal || null);
+        setIsLoading(false);
+      })
+      .catch((error) => {
+        console.error("Error fetching deal details:", error);
+        setIsLoading(false);
+      });
+  }, [dealId]);
+
+  if (isLoading) {
+    return (
+      <View style={styles.centerContainer}>
+        <Stack.Screen options={{ title: 'Loading...', headerStyle: { backgroundColor: '#0b0b0c' }, headerTintColor: '#ffffff' }} />
+        <ActivityIndicator size="large" color="#3b82f6" />
+      </View>
+    );
+  }
 
   if (!deal) {
     return (
-      <View style={styles.errorContainer}>
+      <View style={styles.centerContainer}>
+        <Stack.Screen options={{ title: 'Error', headerStyle: { backgroundColor: '#0b0b0c' }, headerTintColor: '#ffffff' }} />
         <Text style={styles.errorText}>Deal not found.</Text>
       </View>
     );
@@ -31,7 +59,7 @@ export default function DealDetailScreen() {
 
   return (
     <View style={styles.container}>
-      <Stack.Screen options={{ title: deal.title.substring(0, 20) + '...', headerStyle: { backgroundColor: '#0b0b0c' }, headerTintColor: '#ffffff' }} />
+      <Stack.Screen options={{ title: 'Deal Details', headerStyle: { backgroundColor: '#0b0b0c' }, headerTintColor: '#ffffff' }} />
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.headerTags}>
           <Text style={styles.tag}>{deal.store}</Text>
@@ -39,15 +67,25 @@ export default function DealDetailScreen() {
         </View>
         <Text style={styles.title}>{deal.title}</Text>
         <Text style={styles.brand}>by {deal.brand}</Text>
+        
         <View style={styles.priceCard}>
           <View>
-            <Text style={styles.currentPrice}>${deal.currentPrice.toFixed(2)}</Text>
-            <Text style={styles.previousPrice}>MSRP: ${deal.previousPrice.toFixed(2)}</Text>
+            {deal.currentPrice > 0 ? (
+              <Text style={styles.currentPrice}>${deal.currentPrice.toFixed(2)}</Text>
+            ) : (
+              <Text style={styles.currentPrice}>See site for price</Text>
+            )}
+            {deal.previousPrice > 0 && (
+              <Text style={styles.previousPrice}>MSRP: ${deal.previousPrice.toFixed(2)}</Text>
+            )}
           </View>
-          <View style={styles.discountBubble}>
-            <Text style={styles.discountText}>{discount}% OFF</Text>
-          </View>
+          {deal.previousPrice > 0 && (
+            <View style={styles.discountBubble}>
+              <Text style={styles.discountText}>{discount}% OFF</Text>
+            </View>
+          )}
         </View>
+        
         <Text style={styles.sectionTitle}>About this item</Text>
         <Text style={styles.description}>{deal.description}</Text>
       </ScrollView>
@@ -62,7 +100,7 @@ export default function DealDetailScreen() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#0b0b0c' },
-  errorContainer: { flex: 1, backgroundColor: '#0b0b0c', alignItems: 'center', justifyContent: 'center' },
+  centerContainer: { flex: 1, backgroundColor: '#0b0b0c', alignItems: 'center', justifyContent: 'center' },
   errorText: { color: '#ef4444', fontSize: 18 },
   scrollContent: { padding: 20 },
   headerTags: { flexDirection: 'row', gap: 8, marginBottom: 16 },
