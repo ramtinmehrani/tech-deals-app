@@ -1,321 +1,292 @@
 [
   {
-    "id": "09f473bb-1fa6-4a6d-b6db-d1ccccbd6600",
+    "id": "bc907012-7f6e-4614-9ceb-3dc8a17aeb2f",
     "title": "[TV] LG C5 4K 144Hz OLED 42\" - $99.99 (Price Error)",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Other",
+    "category": "Deal",
     "currentPrice": 99.99,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 248",
-    "url": "https://www.ebay.com/itm/157410138625"
+    "url": "https://www.ebay.com/itm/157410138625",
+    "ups": 251
   },
   {
-    "id": "003cde10-857e-4528-9cc4-5250af38580b",
+    "id": "53da198e-f36a-4d1f-98c1-a9c55bec9d8a",
     "title": "[GPU] SAPPHIRE PULSE Radeon RX 9070 XT Graphics Card 11348-03-20G w/ free Rosewill VMG 750W 80+ Gold, ATX 3.0 &amp; 3.1 Compatible &amp; AMD CRIMSON DESERT GAME Bundle Gift ($700 w/ $70 off code requires email)",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Newegg",
-    "currentPrice": 700.0,
-    "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 33",
-    "url": "https://www.newegg.com/sapphire-tech-pulse-11348-03-20g-radeon-rx-9070-xt-16gb-graphics-card-triple-fans/p/N82E16814202450?Item=N82E16814202450"
+    "category": "Deal",
+    "currentPrice": 70.0,
+    "previousPrice": 700.0,
+    "url": "https://www.newegg.com/sapphire-tech-pulse-11348-03-20g-radeon-rx-9070-xt-16gb-graphics-card-triple-fans/p/N82E16814202450?Item=N82E16814202450",
+    "ups": 32
   },
   {
-    "id": "3c144f3f-bfeb-45ba-a94d-eaa8c990adfb",
+    "id": "ff30394f-4016-42fa-a818-eccd39a17fae",
     "title": "[CPU] Intel Core Ultra 5 250KF Plus (with Free ASRock PRO Series 750W 80Plus Gold Power Supply B+ Tier) $199.99 (250K for $20 more)",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Newegg",
-    "currentPrice": 199.99,
-    "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 42",
-    "url": "https://www.newegg.com/intel-core-ultra-5-250kf-plus-core-ultra-5-series-2-arrow-lake-refresh-lga-1851-desktop-cpu-processor/p/N82E16819118630"
+    "category": "Deal",
+    "currentPrice": 20.0,
+    "previousPrice": 199.99,
+    "url": "https://www.newegg.com/intel-core-ultra-5-250kf-plus-core-ultra-5-series-2-arrow-lake-refresh-lga-1851-desktop-cpu-processor/p/N82E16819118630",
+    "ups": 40
   },
   {
-    "id": "2553b5bb-b3ae-4fc2-a1b7-d597a093c454",
+    "id": "09032a3f-a0b8-4739-a4ca-a1af30d3d724",
     "title": "[Monitor] CRUA 34'' White Gaming Monitor, 165HZ/144HZ, WQHD(3440x1440P) IPS UltraWide Screen $149.79",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Amazon",
+    "category": "Deal",
     "currentPrice": 149.79,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 18",
-    "url": "https://www.amazon.com/CRUA-3440x1440P-UltraWide-Computer-Mountable/dp/B0FMXXDK67"
+    "url": "https://www.amazon.com/CRUA-3440x1440P-UltraWide-Computer-Mountable/dp/B0FMXXDK67",
+    "ups": 17
   },
   {
-    "id": "78018b08-8748-477a-b03a-71fd274bbbd9",
+    "id": "70b83076-b858-4979-8ab7-5dbbaf3977fe",
     "title": "[PSU] (NEW) CORSAIR HX1000i Shift Fully Modular ATX Power Supply - $179.99 - WOOT",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Other",
+    "category": "Deal",
     "currentPrice": 179.99,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 16",
-    "url": "https://electronics.woot.com/offers/new-corsair-hx1000i-shift-fully-modular-atx-power-supply?utm_medium=share&amp;utm_source=app"
+    "url": "https://electronics.woot.com/offers/new-corsair-hx1000i-shift-fully-modular-atx-power-supply?utm_medium=share&amp;utm_source=app",
+    "ups": 15
   },
   {
-    "id": "ba460707-bd6c-440d-85f0-cda46818ecf3",
-    "title": "[Keyboard] Corsair K100 RGB Mechanical Keyboard - $169.99 on Amazon",
-    "brand": "Tech",
-    "category": "Deal",
-    "store": "Amazon",
-    "currentPrice": 169.99,
-    "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 6",
-    "url": "https://www.amazon.com/dp/B08HR68MQZ"
-  },
-  {
-    "id": "3b870a34-61ee-449a-afea-35e2c59df880",
+    "id": "354ed0f5-f33e-419a-9ec7-f94171cd7218",
     "title": "[Mouse] Amazon.com: Rapoo VT9Pro Wireless Gaming Mouse - $14.99 (50% off with code F2Q823E2)",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Amazon",
+    "category": "Deal",
     "currentPrice": 14.99,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 36",
-    "url": "https://www.amazon.com/Rapoo-VT9Pro-Wireless-Gaming-Mouse/dp/B0CDFTKJT9"
+    "url": "https://www.amazon.com/Rapoo-VT9Pro-Wireless-Gaming-Mouse/dp/B0CDFTKJT9",
+    "ups": 42
   },
   {
-    "id": "af98fdbc-58c2-4bfb-b917-2167d0528b45",
-    "title": "[GPU] PowerColor Reaper Radeon RX 9060 XT Video Card RX9060XT 16G-A ($419.99/ $50 off w/ code TRWF386)",
-    "brand": "Tech",
+    "id": "96820840-553e-43ba-87e0-e6ae63a2d578",
+    "title": "[Keyboard] Corsair K100 RGB Mechanical Keyboard - $169.99 on Amazon",
+    "store": "Amazon",
     "category": "Deal",
-    "store": "Newegg",
-    "currentPrice": 419.99,
+    "currentPrice": 169.99,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 40",
-    "url": "https://www.newegg.com/powercolor-reaper-rx9060xt-16g-a-radeon-rx-9060-xt-16gb-video-card-double-fans/p/N82E16814131880"
+    "url": "https://www.amazon.com/dp/B08HR68MQZ",
+    "ups": 3
   },
   {
-    "id": "f841548a-d882-4911-b411-821035a7ae59",
-    "title": "[GPU] (Microcenter In-Store only) Zotac NVIDIA GeForce RTX 5060 Ti Twin Edge Dual Fan 16GB GDDR7 PCIe 5.0 Graphics Card ($479.99)",
-    "brand": "Tech",
+    "id": "0657edd1-f599-44a7-9e5e-1296e5e34e18",
+    "title": "[GPU] PowerColor Reaper Radeon RX 9060 XT Video Card RX9060XT 16G-A ($419.99/ $50 off w/ code TRWF386)",
+    "store": "Newegg",
     "category": "Deal",
+    "currentPrice": 50.0,
+    "previousPrice": 419.99,
+    "url": "https://www.newegg.com/powercolor-reaper-rx9060xt-16g-a-radeon-rx-9060-xt-16gb-video-card-double-fans/p/N82E16814131880",
+    "ups": 40
+  },
+  {
+    "id": "06f063d5-ed22-4af3-b1a2-3889881bcf5e",
+    "title": "[GPU] (Microcenter In-Store only) Zotac NVIDIA GeForce RTX 5060 Ti Twin Edge Dual Fan 16GB GDDR7 PCIe 5.0 Graphics Card ($479.99)",
     "store": "Micro Center",
+    "category": "Deal",
     "currentPrice": 479.99,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 65",
-    "url": "https://www.microcenter.com/product/694730/zotac-nvidia-geforce-rtx-5060-ti-twin-edge-dual-fan-16gb-gddr7-pcie-50-graphics-card"
+    "url": "https://www.microcenter.com/product/694730/zotac-nvidia-geforce-rtx-5060-ti-twin-edge-dual-fan-16gb-gddr7-pcie-50-graphics-card",
+    "ups": 64
   },
   {
-    "id": "6ab8f51a-f2ee-462e-af46-2e5011ae54dd",
+    "id": "043cac6a-e577-4303-bf36-68eae32fb124",
     "title": "[GPU] PNY GeForce RTX 5080 - $1161 (after 10% discount when purchased through Staple app)",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Other",
+    "category": "Deal",
     "currentPrice": 1161.0,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 158",
-    "url": "https://www.staples.com/pny-geforce-rtx-50-graphics-card-2295mhz-core-30gbps-mhz-black-vcg508016tfxpb1-o/product_24688319"
+    "url": "https://www.staples.com/pny-geforce-rtx-50-graphics-card-2295mhz-core-30gbps-mhz-black-vcg508016tfxpb1-o/product_24688319",
+    "ups": 157
   },
   {
-    "id": "d05000d6-1289-4a17-ac8a-e48640c1927d",
+    "id": "fa79d00d-a993-4558-a1f2-ce7772976b08",
     "title": "[GPU] (Microcenter In Store Only) ASRock AMD Radeon RX 9060 XT Challenger Overclocked Dual Fan 16GB GDDR6 PCIe 5.0 Graphics Card ($419.99)",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Micro Center",
+    "category": "Deal",
     "currentPrice": 419.99,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 15",
-    "url": "https://www.microcenter.com/product/696272/asrock-amd-radeon-rx-9060-xt-challenger-overclocked-dual-fan-16gb-gddr6-pcie-50-graphics-card"
+    "url": "https://www.microcenter.com/product/696272/asrock-amd-radeon-rx-9060-xt-challenger-overclocked-dual-fan-16gb-gddr6-pcie-50-graphics-card",
+    "ups": 14
   },
   {
-    "id": "0de3dd1c-1d69-498d-9954-5d204884bc1e",
+    "id": "5562f978-277a-436d-bea2-3dc1c2e05efb",
     "title": "[Keyboard] Razer Huntsman V2 Analog Gaming Keyboard ($69.99)",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Other",
+    "category": "Deal",
     "currentPrice": 69.99,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 1",
-    "url": "https://computers.woot.com/offers/razer-huntsman-v2-analog-gaming-keyboard-3"
+    "url": "https://computers.woot.com/offers/razer-huntsman-v2-analog-gaming-keyboard-3",
+    "ups": 0
   },
   {
-    "id": "f27f6ead-ce6d-4bcb-8ed5-27ec8901f728",
+    "id": "aa0bb72a-ee0a-4eb8-8853-a47dfbd6c6f9",
     "title": "[Handheld - Tablet] Amazon Fire HD 8 Tablet, 8\u201d 32GB Refurbished - $32 w/ Code FIRE20 (Woot)",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Other",
+    "category": "Deal",
     "currentPrice": 32.0,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 0",
-    "url": "https://electronics.woot.com/offers/amazon-fire-hd-8-tablet-sd-11?ref=w_cnt_wp_0_6"
+    "url": "https://electronics.woot.com/offers/amazon-fire-hd-8-tablet-sd-11?ref=w_cnt_wp_0_6",
+    "ups": 0
   },
   {
-    "id": "22c7a173-2117-49cf-98f7-de9db2848004",
+    "id": "e6150544-9cb1-492c-9d1e-b29c05d9a771",
     "title": "[RAM] Team T-CREATE CLASSIC 32GB (2 x 16GB) DDR5 6000 CL48 - Newegg $284.99 after $90 promo code SSF5767",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Newegg",
-    "currentPrice": 284.99,
-    "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 0",
-    "url": "https://www.newegg.com/team-group-t-create-classic-32gb-ddr5-6000-cas-latency-cl48-desktop-memory-black/p/N82E16820985006?item=N82E16820985006"
-  },
-  {
-    "id": "f1d09702-9c67-46f7-9ea3-207f864b7779",
-    "title": "[HEADPHONES] Skullcandy - Crusher Evo Over-the-Ear Wireless Headphones - Matte Black - $99.99 - (Save $110) - Best Buy Deal of the Day",
-    "brand": "Tech",
     "category": "Deal",
-    "store": "Best Buy",
-    "currentPrice": 99.99,
-    "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 0",
-    "url": "https://www.bestbuy.com/product/skullcandy-crusher-evo-over-the-ear-wireless-headphones-matte-black/J3GWL576GQ"
+    "currentPrice": 90.0,
+    "previousPrice": 284.99,
+    "url": "https://www.newegg.com/team-group-t-create-classic-32gb-ddr5-6000-cas-latency-cl48-desktop-memory-black/p/N82E16820985006?item=N82E16820985006",
+    "ups": 0
   },
   {
-    "id": "3655b0df-4936-4251-8356-ffc26983995c",
+    "id": "7263a3b0-08ec-4950-be52-eb9f93aa83f0",
     "title": "[Cooler] PCCOOLER CPU Air Cooler Dual Tower, 6\u00d76mm Heatpipes, 120mm ARGB PWM Fan, Copper Reflow Base, Anti-Deformation Bracket, Intel LGA1851/1700 &amp; AMD AM5 Compatible RT620Pro TC ARGB Black ($24.74 with $8.25 coupon)",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Other",
-    "currentPrice": 24.74,
-    "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 34",
-    "url": "https://a.co/d/0dYRO0v7"
+    "category": "Deal",
+    "currentPrice": 8.25,
+    "previousPrice": 24.74,
+    "url": "https://a.co/d/0dYRO0v7",
+    "ups": 31
   },
   {
-    "id": "87f9593d-9819-4a59-b2b1-aa368e09264a",
-    "title": "[Prebuilt] Thermaltake LCGS Versa u2660TS Gaming PC - $1,199.99 - Free shipping for Prime members",
-    "brand": "Tech",
+    "id": "e6d55986-0ccf-4ff6-a97c-16ab9b6a6e7c",
+    "title": "[HEADPHONES] Skullcandy - Crusher Evo Over-the-Ear Wireless Headphones - Matte Black - $99.99 - (Save $110) - Best Buy Deal of the Day",
+    "store": "Best Buy",
     "category": "Deal",
+    "currentPrice": 99.99,
+    "previousPrice": 110.0,
+    "url": "https://www.bestbuy.com/product/skullcandy-crusher-evo-over-the-ear-wireless-headphones-matte-black/J3GWL576GQ",
+    "ups": 0
+  },
+  {
+    "id": "fee41de3-76b5-4c1e-89d5-b6e4dd1762ef",
+    "title": "[Prebuilt] Thermaltake LCGS Versa u2660TS Gaming PC - $1,199.99 - Free shipping for Prime members",
     "store": "Other",
+    "category": "Deal",
     "currentPrice": 1199.99,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 0",
-    "url": "https://computers.woot.com/offers/thermaltake-lcgs-versa-u2660ts-gaming-pc?utm_medium=share&amp;utm_source=app"
+    "url": "https://computers.woot.com/offers/thermaltake-lcgs-versa-u2660ts-gaming-pc?utm_medium=share&amp;utm_source=app",
+    "ups": 0
   },
   {
-    "id": "74868914-501a-4385-99f4-5e75f0f08c5d",
+    "id": "5e1aa65c-4075-4f78-a500-f3ac1dee628b",
     "title": "[Headphones] Apple AirPods Max Wireless Over-Ear Closed-Back Headphones (Starlight, USB-C) - $399.95",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Other",
+    "category": "Deal",
     "currentPrice": 399.95,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 21",
-    "url": "https://www.bhphotovideo.com/c/product/1852447-REG/apple_mww53am_a_airpods_max_starlight.html"
+    "url": "https://www.bhphotovideo.com/c/product/1852447-REG/apple_mww53am_a_airpods_max_starlight.html",
+    "ups": 24
   },
   {
-    "id": "8a4c2b6c-f98e-4055-be8f-77851d35db74",
+    "id": "7447f7bf-9e03-4520-b39e-b921c5eb7cfc",
     "title": "[TV] Costco LG C5 65in OLED $800 YMMV In Store Only",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Other",
+    "category": "Deal",
     "currentPrice": 800.0,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 444",
-    "url": "https://www.costco.com/p/-/lg-65-class-oled-evo-ai-c5-series-4k-smart-tv-allstate-3-year-protection-plan-bundle-included-for-5-years-of-total-coverage/4000368599"
+    "url": "https://www.costco.com/p/-/lg-65-class-oled-evo-ai-c5-series-4k-smart-tv-allstate-3-year-protection-plan-bundle-included-for-5-years-of-total-coverage/4000368599",
+    "ups": 444
   },
   {
-    "id": "fdfd5045-e86f-42c2-aa17-8ff443ea068f",
+    "id": "c3d2a854-0231-46d4-b596-14fcc6b80aa4",
     "title": "[Cooler] PCCOOLER CPS DS360 Display AIO CPU Liquid Cooler, 360mm Radiator, 315W TDP, ARGB LEDs &amp; Customizable 2.4\" IPS LCD Display, Ceramic Bearing, for Intel LGA 1851/1700/1200/115X &amp; AMD AM5/AM4, Black ($57 after promo MKTC7HOQX78B)",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Newegg",
+    "category": "Deal",
     "currentPrice": 57.0,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 32",
-    "url": "https://www.newegg.com/pccooler-liquid-cooling-system-ds-series-radiator-size-396-mm-intel-lga-20xx-1851-1700-1200-115x-amd-am5-am4-black/p/2YM-00BC-00015?srsltid=AfmBOooPf4SHy_ElezY4JTpzZsKkrXhxUa_IiGtj0XAnwKzGB-x9TXpc&amp;utm_source=chatgpt.com"
+    "url": "https://www.newegg.com/pccooler-liquid-cooling-system-ds-series-radiator-size-396-mm-intel-lga-20xx-1851-1700-1200-115x-amd-am5-am4-black/p/2YM-00BC-00015?srsltid=AfmBOooPf4SHy_ElezY4JTpzZsKkrXhxUa_IiGtj0XAnwKzGB-x9TXpc&amp;utm_source=chatgpt.com",
+    "ups": 35
   },
   {
-    "id": "2bce62d4-b4c0-46f6-9677-f1135fca12ee",
+    "id": "45d354c7-f365-432f-a83e-bde021350530",
     "title": "[PREBUILT] Microcenter IN STORE ONLY PowerSpec G760 -9800X3D, RX 9070 XT 16GB ; 32GB ; 2TB - $1799.99 ($400 off)",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Micro Center",
-    "currentPrice": 1799.99,
-    "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 153",
-    "url": "https://www.microcenter.com/product/702408/powerspec-g760-gaming-pc"
+    "category": "Deal",
+    "currentPrice": 400.0,
+    "previousPrice": 1799.99,
+    "url": "https://www.microcenter.com/product/702408/powerspec-g760-gaming-pc",
+    "ups": 151
   },
   {
-    "id": "7b11f450-0841-4655-a42f-32cd54b5fe10",
+    "id": "9a16d94f-083e-4560-b80f-f0526fe7eb34",
     "title": "[TV] LG 48\u201d B5 4K OLED $599.99 at BestBuy (MSRP is $1299.99)",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Best Buy",
+    "category": "Deal",
     "currentPrice": 599.99,
-    "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 122",
-    "url": "https://www.bestbuy.com/product/lg-48-class-b5-series-oled-ai-4k-uhd-smart-webos-tv-2025/JJ8VPZTK9F"
+    "previousPrice": 1299.99,
+    "url": "https://www.bestbuy.com/product/lg-48-class-b5-series-oled-ai-4k-uhd-smart-webos-tv-2025/JJ8VPZTK9F",
+    "ups": 124
   },
   {
-    "id": "c5d49ef2-4500-4f6f-b8b3-9116b17e9151",
+    "id": "01448a2f-0386-43b9-8470-95bcefdf10f8",
     "title": "[Motherboard] MSI PRO B850-P Wifi Motherboard - $155.50",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Amazon",
+    "category": "Deal",
     "currentPrice": 155.5,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 23",
-    "url": "https://www.amazon.com/dp/B0DQB38PL5"
+    "url": "https://www.amazon.com/dp/B0DQB38PL5",
+    "ups": 28
   },
   {
-    "id": "4229243e-4785-45a0-acb0-b73cb8bec6f9",
+    "id": "1a45619c-5b49-4cf1-ad22-d2eda6a37ca6",
     "title": "[Speakers] Edifier MR3, $99.98 ($149.99-50.01)",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Other",
+    "category": "Deal",
     "currentPrice": 99.98,
-    "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 45",
-    "url": "https://a.co/d/0gjvg4HV"
+    "previousPrice": 149.99,
+    "url": "https://a.co/d/0gjvg4HV",
+    "ups": 46
   },
   {
-    "id": "9e4252c3-e6c8-452c-8c2a-5b01587af4f7",
+    "id": "ea88c0e2-65e6-4b02-99b4-faaf0b175a5e",
     "title": "[Motherboard] GIGABYTE B650I AORUS Ultra Mini-ITX AM5 Mobo (New, Open Box) $142.49",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Other",
+    "category": "Deal",
     "currentPrice": 142.49,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 32",
-    "url": "https://sellout.woot.com/offers/gigabyte-b650i-aorus-ultra-mini-itx-am5-mobo-open-box-10?ref=w_cnt_wp_0_68"
+    "url": "https://sellout.woot.com/offers/gigabyte-b650i-aorus-ultra-mini-itx-am5-mobo-open-box-10?ref=w_cnt_wp_0_68",
+    "ups": 31
   },
   {
-    "id": "b5a51d05-c289-4084-8e3b-2587c2961857",
+    "id": "dbac9099-8a82-41a4-9029-0944b78a96b5",
     "title": "[Mouse] Logitech G502 HERO High Performance Wired Gaming Mouse - $24.99 ($35.99-$10 coupon)",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Amazon",
-    "currentPrice": 24.99,
-    "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 67",
-    "url": "https://www.amazon.com/dp/B07GBZ4Q68"
+    "category": "Deal",
+    "currentPrice": 10.0,
+    "previousPrice": 35.99,
+    "url": "https://www.amazon.com/dp/B07GBZ4Q68",
+    "ups": 61
   },
   {
-    "id": "233c370c-3be4-4eb3-9f0b-86f9aa888286",
+    "id": "7fddce5f-b33a-4f67-89c5-8845816cd983",
     "title": "[CPU] AMD RYZEN 7 9800X3D 8-Core, 16-Thread Desktop Processor - $409.95 (4 month low)",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Amazon",
+    "category": "Deal",
     "currentPrice": 409.95,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 126",
-    "url": "https://www.amazon.com/AMD-9800X3D-16-Thread-Desktop-Processor/dp/B0DKFMSMYK"
+    "url": "https://www.amazon.com/AMD-9800X3D-16-Thread-Desktop-Processor/dp/B0DKFMSMYK",
+    "ups": 125
   },
   {
-    "id": "ba92767d-7c86-4dfc-b9f5-2928918a51f9",
+    "id": "38848041-5830-42a5-b327-34a89164fe01",
     "title": "[Motherboard] Gigabyte B550I-AORUS-PRO-AX MAB AMD (New, Open Box) $124.40",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Other",
+    "category": "Deal",
     "currentPrice": 124.4,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 16",
-    "url": "https://sellout.woot.com/offers/gigabyte-b550i-aorus-pro-ax-mab-amd-open-box-5?ref=w_cnt_wp_0_67"
+    "url": "https://sellout.woot.com/offers/gigabyte-b550i-aorus-pro-ax-mab-amd-open-box-5?ref=w_cnt_wp_0_67",
+    "ups": 15
   },
   {
-    "id": "cdc4b015-b649-4d23-8a36-58e41daad13d",
+    "id": "5fdd9eff-ba0e-4ccb-b654-31faedb7623c",
     "title": "[Keyboard] (DOORBUSTER DEAL 9 AM PDT) ASUS ROG Strix Scope II 96 RX Wireless Optical Gaming Keyboard - 96% Full-Size, Tri-Mode Connectivity, Pre-lubed ROG RX Red Linear Switches ABS Keycaps, RGB, PC/Mac Support - Black ($99.99/44% off)",
-    "brand": "Tech",
-    "category": "Deal",
     "store": "Newegg",
+    "category": "Deal",
     "currentPrice": 99.99,
     "previousPrice": 0,
-    "description": "Hot deal! Upvotes: 0",
-    "url": "https://www.newegg.com/asus-x902-scope-ii-96-rx-wl-blk-rxrd-ca-abs-rog-strix-scope-ii-96-rx-wireless-gaming-keyboard-mechanical-keyboard-linear/p/23-193-171?Item=23-193-171&amp;Tpk=23-193-171&amp;t=1776007569461"
+    "url": "https://www.newegg.com/asus-x902-scope-ii-96-rx-wl-blk-rxrd-ca-abs-rog-strix-scope-ii-96-rx-wireless-gaming-keyboard-mechanical-keyboard-linear/p/23-193-171?Item=23-193-171&amp;Tpk=23-193-171&amp;t=1776007569461",
+    "ups": 0
   }
 ]

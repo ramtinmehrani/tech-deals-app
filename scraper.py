@@ -17,35 +17,46 @@ def fetch_tech_deals():
                 p = post['data']
                 if p['stickied'] or p['is_self']: continue
                 
-                # Logic to specifically highlight Micro Center
                 title = p['title']
-                store = 'Other'
-                domain = p.get('domain', '').lower()
+                # Look for all price patterns like $400 or $400.99
+                price_strings = re.findall(r'\$([0-9,]+(?:\.[0-9]{2})?)', title)
                 
-                if 'microcenter' in domain or 'micro center' in title.lower():
-                    store = 'Micro Center'
+                # Convert strings to floats
+                prices = [float(p.replace(',', '')) for p in price_strings]
+                
+                current_price = 0
+                previous_price = 0
+                
+                if len(prices) >= 2:
+                    # If two prices found, the smaller is the deal, larger is original
+                    current_price = min(prices)
+                    previous_price = max(prices)
+                elif len(prices) == 1:
+                    current_price = prices[0]
+                    previous_price = 0 # No original price found
+
+                # Determine Store
+                domain = p.get('domain', '').lower()
+                store = 'Other'
+                if 'microcenter' in domain or 'micro center' in title.lower(): store = 'Micro Center'
                 elif 'amazon' in domain: store = 'Amazon'
                 elif 'newegg' in domain: store = 'Newegg'
                 elif 'bestbuy' in domain: store = 'Best Buy'
 
-                price_strings = re.findall(r'\$([0-9,]+(?:\.[0-9]{2})?)', title)
-                current_price = float(price_strings[0].replace(',', '')) if price_strings else 0
-                
                 deals.append({
                     "id": str(uuid.uuid4()),
                     "title": title,
-                    "brand": "Tech", 
-                    "category": "Deal",
                     "store": store,
+                    "category": "Deal",
                     "currentPrice": current_price,
-                    "previousPrice": 0,
-                    "description": f"Hot deal! Upvotes: {p.get('ups', 0)}",
-                    "url": p['url']
+                    "previousPrice": previous_price,
+                    "url": p['url'],
+                    "ups": p.get('ups', 0)
                 })
             
-            with open('deals.json', 'w', encoding='utf-8') as f:
+            with open('deals.json', 'w') as f:
                 json.dump(deals, f, indent=2)
-            print(f"✅ Scraper updated with Micro Center support!")
+            print(f"✅ Scraper updated with Price Comparison!")
     except Exception as e:
         print(f"❌ Error: {e}")
 
