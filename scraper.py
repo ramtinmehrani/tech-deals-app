@@ -18,22 +18,23 @@ def fetch_tech_deals():
                 if p['stickied'] or p['is_self']: continue
                 
                 title = p['title']
-                # Look for all price patterns like $400 or $400.99
                 price_strings = re.findall(r'\$([0-9,]+(?:\.[0-9]{2})?)', title)
-                
-                # Convert strings to floats
                 prices = [float(p.replace(',', '')) for p in price_strings]
                 
-                current_price = 0
-                previous_price = 0
-                
-                if len(prices) >= 2:
-                    # If two prices found, the smaller is the deal, larger is original
-                    current_price = min(prices)
-                    previous_price = max(prices)
-                elif len(prices) == 1:
-                    current_price = prices[0]
-                    previous_price = 0 # No original price found
+                current_price = prices[0] if prices else 0
+                previous_price = max(prices) if len(prices) > 1 else 0
+
+                # SMART LOGIC: If only 1 price found, try to calculate original from "X% off"
+                if len(prices) == 1:
+                    pct_match = re.search(r'(\d+)%\s+off', title.lower())
+                    save_match = re.search(r'save\s+\$(\d+)', title.lower())
+                    
+                    if pct_match:
+                        pct = int(pct_match.group(1))
+                        previous_price = current_price / (1 - (pct / 100))
+                    elif save_match:
+                        savings = float(save_match.group(1))
+                        previous_price = current_price + savings
 
                 # Determine Store
                 domain = p.get('domain', '').lower()
@@ -43,20 +44,23 @@ def fetch_tech_deals():
                 elif 'newegg' in domain: store = 'Newegg'
                 elif 'bestbuy' in domain: store = 'Best Buy'
 
+                # Extract Category like [Monitor] or [GPU]
+                cat_match = re.search(r'\[(.*?)\]', title)
+                category = cat_match.group(1) if cat_match else "Deal"
+
                 deals.append({
                     "id": str(uuid.uuid4()),
                     "title": title,
                     "store": store,
-                    "category": "Deal",
+                    "category": category,
                     "currentPrice": current_price,
                     "previousPrice": previous_price,
-                    "url": p['url'],
-                    "ups": p.get('ups', 0)
+                    "url": p['url']
                 })
             
             with open('deals.json', 'w') as f:
                 json.dump(deals, f, indent=2)
-            print(f"✅ Scraper updated with Price Comparison!")
+            print("✅ Smart Scraper updated!")
     except Exception as e:
         print(f"❌ Error: {e}")
 
