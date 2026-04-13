@@ -3,6 +3,7 @@
     "name": "tech-deals-app",
     "slug": "tech-deals-app",
     "version": "1.0.0",
+    "scheme": "techdeals",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
