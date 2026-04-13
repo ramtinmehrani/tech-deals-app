@@ -2,7 +2,7 @@ name: Update Tech Deals
 
 on:
   schedule:
-    - cron: '0 0,12 * * *'
+    - cron: '0 * * * *'  # This means: "Run at minute 0 of every hour"
   workflow_dispatch:
 
 jobs:
